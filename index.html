@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101114">
+<meta name="description" content="Работа курьером в удобном графике. Авто, велосипед или пешком.">
+<title>Работа курьером | РФ</title>
+<style>
+:root{
+  --bg:#0d0f12; --card:#15181d; --card2:#1b1f25; --text:#f5f7fa;
+  --muted:#a8afb9; --accent:#ffd21c; --accent2:#ffdf55; --line:#292e36;
+  --ok:#79e28b; --max:760px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:auto;padding:0 18px}
+header{position:sticky;top:0;z-index:20;background:rgba(13,15,18,.86);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{height:62px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:-.4px}.logo span{color:var(--accent)}
+.support{font-size:14px;color:var(--muted)}
+.hero{padding:54px 0 30px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #3a3f47;border-radius:999px;color:#dfe3e8;font-size:13px;background:#12151a}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--ok)}
+h1{font-size:clamp(40px,11vw,70px);line-height:.98;letter-spacing:-2.8px;margin:20px 0 18px}
+h1 span{color:var(--accent)}
+.lead{font-size:19px;color:#c8cdd4;max-width:620px;margin:0 0 26px}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 22px;border-radius:15px;font-weight:850;font-size:16px;border:1px solid var(--line)}
+.btn.primary{background:var(--accent);color:#111;border-color:var(--accent)}
+.btn.secondary{background:#171a1f;color:#fff}
+.note{font-size:12px;color:#777f8a;margin-top:11px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:25px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:17px 14px}
+.stat b{display:block;font-size:22px}.stat span{color:var(--muted);font-size:12px}
+section{padding:22px 0}
+h2{font-size:28px;letter-spacing:-1px;margin:0 0 14px}
+.sub{color:var(--muted);margin-top:-5px;margin-bottom:17px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:19px;padding:20px}
+.card strong{font-size:18px}.card p{color:var(--muted);font-size:14px;margin:7px 0 0}
+.icon{font-size:27px;margin-bottom:10px}
+.citybox{display:flex;flex-wrap:wrap;gap:8px}
+.city{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 12px;color:#d7dce2;font-size:13px}
+.steps{counter-reset:s}
+.step{position:relative;padding:18px 18px 18px 58px;background:var(--card);border:1px solid var(--line);border-radius:18px;margin:10px 0}
+.step:before{counter-increment:s;content:counter(s);position:absolute;left:18px;top:17px;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#111;font-weight:900;display:grid;place-items:center}
+.step b{display:block}.step span{display:block;color:var(--muted);font-size:14px;margin-top:3px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:16px 18px;margin:9px 0}
+.faq summary{cursor:pointer;font-weight:750}
+.faq p{color:var(--muted);font-size:14px;margin:11px 0 0}
+.final{margin:25px 0 42px;background:linear-gradient(145deg,#1b1f25,#111318);border:1px solid #343941;border-radius:24px;padding:25px}
+.final p{color:var(--muted)}
+footer{padding:25px 0 45px;color:#707783;font-size:12px;border-top:1px solid var(--line)}
+@media(max-width:520px){
+  .grid{grid-template-columns:1fr}
+  .stats{gap:7px}.stat{padding:14px 10px}.stat b{font-size:19px}
+  .hero{padding-top:42px}.support{display:none}
+  .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="logo">Работа<span>Go</span></div>
+    <a class="support" href="https://t.me/GASGAS51">Есть вопросы? Telegram →</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="pill"><i class="dot"></i> Открыт набор курьеров</div>
+    <h1>Работа курьером.<br><span>В твоём графике.</span></h1>
+    <p class="lead">Автомобиль, велосипед или пешком — выбирай удобный формат и начинай доставку в своём городе.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://trk.ppdu.ru/click/KvIyjKrF?erid=CQH36pWzJqVGXC5oLP8WVVNCNqJmbhiUPijGiu4zpwPd7G">Начать оформление</a>
+      <a class="btn secondary" href="#conditions">Условия</a>
+    </div>
+    <div class="note">Оформление проходит через партнёра.</div>
+
+    <div class="stats">
+      <div class="stat"><b>до 8 500 ₽</b><span>в день*</span></div>
+      <div class="stat"><b>24/7</b><span>много заказов</span></div>
+      <div class="stat"><b>18+</b><span>возраст</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Выбери свой формат</h2>
+    <p class="sub">Подходит для разных способов передвижения.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">🚗</div><strong>На автомобиле</strong><p>Больше мобильности и возможность брать заказы по маршруту.</p></div>
+      <div class="card"><div class="icon">🚲</div><strong>На велосипеде</strong><p>Велокурьеры тоже могут работать. Доступны партнёрские скидки на велосипед до 20%.</p></div>
+      <div class="card"><div class="icon">🚶</div><strong>Пешком</strong><p>Для тех, кто хочет работать без автомобиля и велосипеда.</p></div>
+      <div class="card"><div class="icon">🕒</div><strong>Удобный график</strong><p>Выбирай удобное время для выхода на линию.</p></div>
+    </div>
+  </section>
+
+  <section id="conditions">
+    <h2>Что нужно для старта</h2>
+    <div class="grid">
+      <div class="card"><strong>Документ</strong><p>Нужен документ, удостоверяющий личность.</p></div>
+      <div class="card"><strong>Телефон</strong><p>Android 8+ или iPhone с iOS 16.5+.</p></div>
+      <div class="card"><strong>Возраст</strong><p>От 18 лет. Для авто — до 65 лет, для пешего/велоформата — до 55 лет.</p></div>
+      <div class="card"><strong>Медкнижка</strong><p>При необходимости оформление оплачивается кандидатом: ориентировочно 1 500–2 000 ₽.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Как начать</h2>
+    <div class="steps">
+      <div class="step"><b>Оставь заявку</b><span>Нажми «Начать оформление» и перейди к регистрации.</span></div>
+      <div class="step"><b>Пройди регистрацию</b><span>Заполни необходимые данные и пройди подключение.</span></div>
+      <div class="step"><b>Выйди на доставку</b><span>После активации можно приступать к выполнению заказов.</span></div>
+      <div class="step"><b>Выполни минимум 5 заказов</b><span>Для целевого действия требуется активность в соответствии с условиями программы.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Города</h2>
+    <p class="sub">Доступные города могут меняться — актуальный список показывается при оформлении.</p>
+    <div class="citybox">
+      <span class="city">Москва</span><span class="city">Казань</span><span class="city">Уфа</span><span class="city">Сочи</span>
+      <span class="city">Воронеж</span><span class="city">Омск</span><span class="city">Тула</span><span class="city">Пермь</span>
+      <span class="city">Ижевск</span><span class="city">Иркутск</span><span class="city">Красноярск</span><span class="city">Белгород</span>
+      <span class="city">Тамбов</span><span class="city">Смоленск</span><span class="city">Липецк</span><span class="city">и другие</span>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>Нужна помощь?</h2>
+    <div class="card" style="margin-bottom:12px;text-align:center">
+      <div class="icon">💬</div>
+      <strong>Есть вопросы по оформлению?</strong>
+      <p>Напиши нам в Telegram — подскажем по процессу и поможем разобраться.</p>
+      <a class="btn secondary" style="margin-top:14px;width:100%" href="https://t.me/GASGAS51">Написать в Telegram @GASGAS51</a>
+    </div>
+    <h2 style="margin-top:26px">Частые вопросы</h2>
+    <details><summary>Можно работать на велосипеде?</summary><p>Да, велосипедный формат предусмотрен. Также доступны партнёрские скидки на велосипед до 20%.</p></details>
+    <details><summary>Нужно ли работать каждый день?</summary><p>Нет. Можно выбирать удобный график выхода на доставку.</p></details>
+    <details><summary>Сколько заказов нужно выполнить?</summary><p>Минимальное целевое действие программы — регистрация и выполнение 5 заказов в установленный период.</p></details>
+    <details><summary>Куда обращаться, если появились вопросы?</summary><p>Можно написать нам в Telegram — поможем разобраться с процессом оформления.</p></details>
+  </section>
+
+  <section class="final">
+    <h2>Готов начать?</h2>
+    <p>Перейди к оформлению и выбери подходящий формат доставки.</p>
+    <a class="btn primary" href="https://trk.ppdu.ru/click/KvIyjKrF?erid=CQH36pWzJqVGXC5oLP8WVVNCNqJmbhiUPijGiu4zpwPd7G">Начать оформление</a>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    * Указанный доход — максимальное значение из условий рекламной программы и не является гарантией заработка. Условия и доступность формата зависят от города и действующих правил программы.<br><br>
+    Информация на странице носит справочный характер. Оформление проходит через партнёра.
+  </div>
+</footer>
+</body>
+</html>
